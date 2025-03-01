@@ -7,5 +7,8 @@ print(f"Times: {times}")
 print(f"Riders: {riders}")
 late_night = df[(times == "Late Night (12am-Close)")]
 print(f"late night data: {late_night}")
-#riders_late_night = 
-#print(f"late night riders: {riders_late_night}")
+night = "Late Night (12am-Close)"
+riders_late_night = df.loc[times == night, "Avg Daily Entries"].iloc[0]
+print(f"late night riders: {riders_late_night}")
+
+for 
