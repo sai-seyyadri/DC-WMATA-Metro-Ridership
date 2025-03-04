@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20120713</pubdate>
+                <title>Metro Stations Regional</title>
+                <geoform>vector digital data</geoform>
+                <onlink>http://dcatlas.dcgis.dc.gov/catalog/download.asp?downloadName=MetroStnFullPt&amp;downloadTYPE=ESRI</onlink>
+                <lworkcit>
+                    <citeinfo>
+                        <title>DC Geographic Information System</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Metro Stations (regional). The dataset contains points representing locations and attributes of Metro stations, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. Platform centroids were identified from visual observation of orthophotography and extracted planimetric data. Centroids were heads-up digitized from the snapbase. All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.</abstract>
+            <purpose>This data is used for the planning and management of Washington, D.C. by local government agencies.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20120713</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.273550</westbc>
+                <eastbc>-76.841560</eastbc>
+                <northbc>39.120043</northbc>
+                <southbc>38.766325</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Bus Stop</themekey>
+                <themekey>Transit</themekey>
+                <themekey>location</themekey>
+                <themekey>WMATA</themekey>
+                <themekey>Bus Line</themekey>
+                <themekey>Subway</themekey>
+                <themekey>Rail Transit</themekey>
+                <themekey>Canopy</themekey>
+                <themekey>Commute</themekey>
+                <themekey>Conservation</themekey>
+                <themekey>Public Transportation</themekey>
+                <themekey>Bus Route</themekey>
+                <themekey>transportation</themekey>
+                <themekey>Metro</themekey>
+                <themekey>Washington Metropolitan Area Transit Authority</themekey>
+                <themekey>Mass Transit</themekey>
+                <themekey>Parapet</themekey>
+                <themekey>Bus Stop</themekey>
+                <themekey>Commuter</themekey>
+                <themekey>transitMetro</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>location</themekey>
+                <themekey>transportation</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Washington</placekey>
+                <placekey>D.C.</placekey>
+                <placekey>District of Columbia</placekey>
+                <placekey>DC</placekey>
+                <placekey>DC GIS</placekey>
+                <placekey>DCGIS</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington Metropolitan Area Transit Authority</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>300 7th Street, SW</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20024</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 637-1328</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Washington Metropolitan Area Transit Authority</datacred>
+        <native>ESRI ArcCatalog 9.3.1.4000</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness.</attraccr>
+        </attracc>
+        <logic>Not validated by source and/or responsible agency.</logic>
+        <complete>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. In process of validation by source and/or responsible agency.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>In process of validation by source and/or responsible agency.</horizpar>
+            </horizpa>
+        </posacc>
+        <posacc>
+            <vertacc>
+                <vertaccr>N/A</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>MetroStnPt</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>1000</srcscale>
+                <typesrc/>
+                <srccitea>MetroStnPt</srccitea>
+                <srccontr>initial geography</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>WMATA website</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srccitea>WMATA website</srccitea>
+                <srccontr>location and attributes</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Metadata imported.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Metadata imported.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Metadata imported.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>For the blue line extension, platform centroids were identified from visual observation of orthophotography and a centroid for each heads-up digitized from the 2003 orthophotographs.  Also, using the more accurate metro lines from the WMATA Surveyor's office, staff moved the stations to better fit with the metro lines.  Attribute data was provided by the WMATA website.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>An ADDRESS field was added and populated using data from WMATA's website.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>A LINE field was added.  The field describe the color of the line each station is located on.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Staff modified the layer to reflect the yellow line extension.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Platform centroids were identified from visual observation of orthophotography and extracted planimetric data and a centroid for each heads-up digitized from the 1995 orthophotographs. Attribute data was provided by the WMATA website.
+
+Planimetrics were created at a scale of 1:1,000. This means that a well defined feature falls within two feet of true position.
+
+All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.</procdesc>
+                <procdate>20010806</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Added yellow and orange line rush plus information.</procdesc>
+                <procdate>20120713</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>White Flint was renamed to North Bethesda, Largo Town Center was renamed to Downtown Largo, Tysons Corner was renamed to Tysons, and Prince George's Plaza was renamed to Hyattsville Crossing.</procdesc>
+                <procdate>20220916</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Added 6 new stations on silver line (Ashburn, Reston Town Center, Loudoun Gateway, Herndon, Dulles Airport, and Innovation Center).</procdesc>
+                <procdate>20221202</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Added Potomac Yard.</procdesc>
+                <procdate>20230526</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated LINE attribute values</procdesc>
+                <procdate>20240322</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>98</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DCGIS.MetroStnFullPt</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LINE</attrlabl>
+                <attrdef>Color of Metro Line</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+                <attrdef>OCTO GIS sequential identifier</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>EDITOR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EDITED</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>WEB_URL</attrlabl>
+                <attrdef>web url link</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Feature Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MAR_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Street Address of Metro Station</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATOR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATED</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>441 4th St NW, Suite 930 South</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20001</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+                <cntinst>dcgis@dc.gov</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>Acknowledgment of the DC Geographic Information Systems Program (DC GIS).  The District of Columbia Government makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a  particular use, nor are any such warranties to be implied or inferred with respect to the information or data furnished herein.</distliab>
+        <custom>Most DC GIS datasets can be downloaded from "http://dcgis.dc.gov" on the data center page.  Orders can also be made by contacting OCTO GIS at "dcgis@dc.gov", especially for datasets not available for download.</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20240319</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+                <cntinst>email</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metac>None.</metac>
+        <metuc>None.</metuc>
+    </metainfo>
+</metadata>
