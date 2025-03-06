@@ -1,1 +1,28 @@
-Hello
+Info Challenge 2025 Abstract
+
+IC25051: Saisidharth Seyyadri, Roshan Aterugu, Ramya Nataraj 
+Challenge Name:  DC WMATA Metro ridership dataset
+Upon analyzing the DC WMATA Metro ridership dataset, our team aims to uncover 
+key trends, patterns, and outliers in metro usage across different time periods, 
+days of the week, and seasons. By utilizing exploratory data analysis and data 
+visualization techniques, we will examine how factors including time of day, 
+part of the week, and seasonal factors impact ridership across different metro 
+stations. Beyond general trends, we also aim to explore how major events impact 
+metro usage, asking questions such as: Do ridership numbers spike near Capital 
+One Arena during hockey or basketball games? Do stations near the National Mall 
+see increased traffic during the Cherry Blossom Festival?
+
+To address these questions, we will develop histograms and geospatial maps to 
+analyze ridership patterns. Our methodology involves creating CSV files 
+categorizing data by time of day and station location. The geospatial maps will 
+visualize metro station activity, with point sizes representing average 
+ridership across selected days. We hypothesize that peak travel hours will have 
+the highest ridership, stations near cultural landmarks will see increased 
+weekend traffic, and colder months will lead to decreased late-night ridership 
+compared to summer.
+
+Our results will provide valuable insights into metro travel patterns, 
+assisting transit planners, policymakers, and organizations like MindPetal 
+in better understanding public transit trends. By leveraging data-driven 
+analysis, we aim to contribute to enhancing metro services and transportation 
+planning based on ridership demand and external factors.
