@@ -15,9 +15,9 @@ df_mar_06 <- read.csv("./Data/WMATA_Ridership_Summary.xlsx - March_6_2024.csv")
 df_mar_23 <- read.csv("./Data/WMATA_Ridership_Summary.xlsx - March_23_2024.csv")
 df_sep_04 <- read.csv("./Data/WMATA_Ridership_Summary.xlsx - September_4_2024.csv")
 df_sep_21 <- read.csv("./Data/WMATA_Ridership_Summary.xlsx - September_21_2024.csv")
-df_lat_long <- read.csv("./Longitude _ Latitude for Stations.csv")
+df_lat_long <- read.csv("./Spatial Data/Longitude _ Latitude for Stations.csv")
 
-dc_boundary <- st_read("./Washington_DC_Boundary/Washington_DC_Boundary.shp")
+dc_boundary <- st_read("./Spatial Data/Washington_DC_Boundary/Washington_DC_Boundary.shp")
 
 total_dec_04_df <- df_dec_04 %>%
   # to change of the type of the column to numeric and remove the K
@@ -173,3 +173,4 @@ tm_shape(dc_boundary) +
   tm_basemap("OpenStreetMap")
 
 #-------------------------------------------------------------------------------
+
