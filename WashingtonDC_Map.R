@@ -18,7 +18,6 @@ df_sep_21 <- read.csv("./Data/WMATA_Ridership_Summary.xlsx - September_21_2024.c
 df_lat_long <- read.csv("./Longitude _ Latitude for Stations.csv")
 
 dc_boundary <- st_read("./Washington_DC_Boundary/Washington_DC_Boundary.shp")
-#dc_boundary <- st_read("./Metro_Stations_Regional/Metro_Stations_Regional.shp")
 
 total_dec_04_df <- df_dec_04 %>%
   # to change of the type of the column to numeric and remove the K
@@ -87,28 +86,20 @@ stations <- data.frame(
   name = all_8_days_avg$Station.Name,
   longitude = all_8_days_avg$Longitude,
   latitude = all_8_days_avg$Latitude,
-  people = all_8_days_avg$total_avg
+  Attendees = all_8_days_avg$total_avg
 )
 
-# Convert the data frame to an `sf` object
 stations_sf <- st_as_sf(stations, coords = c("longitude", "latitude"), crs = 4326)
 
 
 tmap_mode("view")
-#tmap_mode("plot")
 
-# Create a map
+# map
 tm_shape(dc_boundary) +
   tm_shape(stations_sf) +
-  tm_bubbles(size = "people", col ="blue", alpha = 0.5) +
+  tm_bubbles(size = "Attendees", col ="blue", alpha = 0.5) +
   tm_borders() +
   tm_basemap("OpenStreetMap")
-
-
-# Save the map as a PNG file
-#tmap_save(map, filename = "dc_stations_map.png", width = 831, height = 671, dpi = 300)
-
-
 
 # trend: the difference in people between weekdays and weekends per location of the metro station
 all_weekdays_avg <- df_lat_long %>%
@@ -130,26 +121,20 @@ stations <- data.frame(
   name = all_weekdays_avg$Station.Name,
   longitude = all_weekdays_avg$Longitude,
   latitude = all_weekdays_avg$Latitude,
-  people = all_weekdays_avg$total_avg
+  Attendees = all_weekdays_avg$total_avg
 )
 
-# Convert the data frame to an `sf` object
 stations_sf <- st_as_sf(stations, coords = c("longitude", "latitude"), crs = 4326)
 
 
 tmap_mode("view")
-#tmap_mode("plot")
 
-# Create a map
+# map
 tm_shape(dc_boundary) +
   tm_shape(stations_sf) +
-  tm_bubbles(size = "people", col ="blue", alpha = 0.5) +
+  tm_bubbles(size = "Attendees", col ="blue", alpha = 0.5) +
   tm_borders() +
   tm_basemap("OpenStreetMap")
-
-
-# Save the map as a PNG file
-#tmap_save(map, filename = "dc_stations_map.png", width = 831, height = 671, dpi = 300)
 
 #-------------------------------------------------------------------------------
 
@@ -172,27 +157,19 @@ stations <- data.frame(
   name = all_weekends_avg$Station.Name,
   longitude = all_weekends_avg$Longitude,
   latitude = all_weekends_avg$Latitude,
-  people = all_weekends_avg$total_avg
+  Attendees = all_weekends_avg$total_avg
 )
 
-# Convert the data frame to an `sf` object
 stations_sf <- st_as_sf(stations, coords = c("longitude", "latitude"), crs = 4326)
 
 
 tmap_mode("view")
-#tmap_mode("plot")
 
-# Create a map
-weekends_map <- tm_shape(dc_boundary) +
+# map
+tm_shape(dc_boundary) +
   tm_shape(stations_sf) +
-  tm_bubbles(size = "people", col ="blue", alpha = 0.5) +
+  tm_bubbles(size = "Attendees", col ="blue", alpha = 0.5) +
   tm_borders() +
   tm_basemap("OpenStreetMap")
 
-
-# Save the map as a PNG file
-#tmap_save(map, filename = "dc_stations_map.png", width = 831, height = 671, dpi = 300)
-
 #-------------------------------------------------------------------------------
-
-
