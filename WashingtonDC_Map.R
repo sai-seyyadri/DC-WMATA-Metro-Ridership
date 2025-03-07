@@ -117,9 +117,8 @@ all_weekdays_avg <- df_lat_long %>%
   full_join(total_mar_06_df, by = "Station.Name") %>%
   full_join(total_sep_04_df, by = "Station.Name") 
 
-all_weekdays_avg <- all_8_days_avg %>%
-  mutate(avg.x.x = replace_na(avg.x.x, 0),
-         avg.y.y = replace_na(avg.y.y, 0))
+all_weekdays_avg <- all_weekdays_avg %>%
+  mutate(avg.y = replace_na(avg.y, 0))
 
 all_weekdays_avg <- all_weekdays_avg %>% 
   mutate(row_sum = rowSums(select(., -Station.Name, -Longitude, -Latitude))) %>%
@@ -160,9 +159,8 @@ all_weekends_avg <- df_lat_long %>%
   full_join(total_mar_23_df, by = "Station.Name") %>%
   full_join(total_sep_21_df, by = "Station.Name")
 
-all_weekends_avg <- all_8_days_avg %>%
-  mutate(avg.x.x = replace_na(avg.x.x, 0),
-         avg.y.y = replace_na(avg.y.y, 0))
+all_weekends_avg <- all_weekends_avg %>%
+  mutate(avg.y = replace_na(avg.y, 0))
 
 all_weekends_avg <- all_weekends_avg %>% 
   mutate(row_sum = rowSums(select(., -Station.Name, -Longitude, -Latitude))) %>%
@@ -185,7 +183,7 @@ tmap_mode("view")
 #tmap_mode("plot")
 
 # Create a map
-tm_shape(dc_boundary) +
+weekends_map <- tm_shape(dc_boundary) +
   tm_shape(stations_sf) +
   tm_bubbles(size = "people", col ="blue", alpha = 0.5) +
   tm_borders() +
