@@ -74,7 +74,7 @@ We matched the provided dates by the xlsx with the coresponding events that took
 
 AI Tool that we used: ChatGPT
 
--   finding reliable websites that contain importants data such as events occurring in Washington DC during the give days and a spatial map of Washington DC and its surrounding area
+-   finding reliable websites that contain important data such as events occurring in Washington DC during the given days and a spatial map of Washington DC and its surrounding area
 -   deepen our understanding with certain libraries in Python and R.
 
 **Sources we used:**
